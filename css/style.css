@@ -1,9 +1,40 @@
-.navbar{
-  border-radius: 0px 0px 5px 5px;
-  background-color: #202020;
+body{
+  font-family: sans-serif;
 }
-.glyphicon-home{
-  top: 10%;
-  left: 1%;
+.navbar{
   position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.navbar-header span{
+  display: inline;
+}
+.jumbotron{
+  font-family: Consolas, Monaco, monospace;
+}
+.logo img{
+  display:block;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+.img-column{
+  text-align: center;
+}
+.img-column figcaption{
+  margin: 2% 0%;
+}
+.glyphicon{
+  margin: 0% 2%;
+}
+@media only screen and (max-width:768px){
+  .logo{
+  }
+  .logo img{
+    width:35%;
+    display:inline;
+    margin: 0;
+  }
+  .introtext{
+    display: inline;
+  }
 }
