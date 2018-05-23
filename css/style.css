@@ -1,0 +1,9 @@
+.navbar{
+  border-radius: 0px 0px 5px 5px;
+  background-color: #202020;
+}
+.glyphicon-home{
+  top: 10%;
+  left: 1%;
+  position: fixed;
+}
